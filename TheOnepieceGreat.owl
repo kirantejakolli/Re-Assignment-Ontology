@@ -1,0 +1,2819 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.co-ode.org/ontologies/TheOnePiece#"
+     xml:base="http://www.co-ode.org/ontologies/TheOnePiece"
+     xmlns:TheOnePiece1="http://www.co-ode.org/ontologies/TheOnePiece/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:TheOnePiece="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.co-ode.org/ontologies/TheOnePiece">
+        <owl:versionIRI rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/2.0.0"/>
+        <rdfs:label xml:lang="fr">L&apos;ontologie Onepiece décrit les principaux personnages impliqués dans la série et les relations</rdfs:label>
+        <rdfs:label xml:lang="en">The One Piece Ontology</rdfs:label>
+        <skos:reference xml:lang="en">The Information provided in this ontology is grabbed from :
+http://onepiece.wikia.com/wiki/One_Piece_Wiki
+
+For the complete information of OnePiece, please visit the site.</skos:reference>
+        <terms:contributor xml:lang="en">Kiran Teja Kolli</terms:contributor>
+        <skos:reference xml:lang="en">The details and information of the series is taken from :
+https://en.wikipedia.org/wiki/One_Piece
+Please visit the website for more info.</skos:reference>
+        <rdfs:label xml:lang="en">The Onepiece Ontology describes about the main characters involved in the series and relations.</rdfs:label>
+        <dc:title xml:lang="en">The OnePiece</dc:title>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/provenance -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/provenance"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000001 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000001">
+        <rdfs:label xml:lang="en">reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#reference -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#reference"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000145 -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000145">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000145"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000003"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000145"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000009"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:comment>The relation is between the character and voice actor who has given voice to.</rdfs:comment>
+        <rdfs:label xml:lang="en">is_voicedby</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146 -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000006"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000003"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:comment>The relation is between the Devil Fruits and the characters.</rdfs:comment>
+        <rdfs:label xml:lang="en">is_usedby</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147 -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:comment>The relation is about the episodes that are written by writers.</rdfs:comment>
+        <rdfs:label xml:lang="en">is_writtenby</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000148 -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000148">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000008"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:comment>The relation is the episodes are directed by directors.</rdfs:comment>
+        <rdfs:label xml:lang="en">is_directedby</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149 -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000003"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000007"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:comment>The relation defines that particular individual is a member of specfic pirate clan.</rdfs:comment>
+        <rdfs:label xml:lang="en">is_aMemberof</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150 -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000007"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000003"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:comment>The Pirate clan  has a member from the characters class.</rdfs:comment>
+        <rdfs:label xml:lang="en">has_aMember</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000151 -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000151">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000151"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000009"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000151"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000003"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:comment>The voice actor who gave to voice to a character.</rdfs:comment>
+        <rdfs:label xml:lang="en">has_givenVoice_to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000152 -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000152">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000152"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000008"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000151"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:comment>The Director has directed these episodes.</rdfs:comment>
+        <rdfs:label xml:lang="en">has_directed</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153 -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000135"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000151"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">has_wrote</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160 -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000003"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000151"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000006"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">has_eaten</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000161 -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000161">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000161"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000002"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000161"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000003"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000161"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000004"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000161"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000161"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000006"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000161"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000007"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">The One piece has the following elements</rdfs:comment>
+        <rdfs:label xml:lang="en">has_theElement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000162 -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000162">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000003"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000004"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000006"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000007"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000161"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000002"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">is_aSubclassOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000011 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000011">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000003"/>
+        <rdfs:comment>The main Supporting characters in the show.</rdfs:comment>
+        <rdfs:label xml:lang="en">Supporting_Characters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000012 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000012">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000003"/>
+        <rdfs:comment>This class represents the main leading characters in the show.</rdfs:comment>
+        <rdfs:label xml:lang="en">Main_Characters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000011"/>
+        <rdfs:comment xml:lang="en">Adult Characters that are involved in the series.</rdfs:comment>
+        <rdfs:label xml:lang="en">Adults</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000014 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000014">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000011"/>
+        <rdfs:comment>The child characters that are involved in the part of the show.</rdfs:comment>
+        <rdfs:label xml:lang="en">Children</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000015 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000015">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000006"/>
+        <rdfs:comment xml:lang="en">Powers which are most powerfull and dangerous.</rdfs:comment>
+        <rdfs:label xml:lang="en">Awakened Devil Fruits</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000016 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000016">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000006"/>
+        <rdfs:comment xml:lang="en">Special powers that include smoke, fire, light and gas.</rdfs:comment>
+        <rdfs:label xml:lang="en">Logia Devil Fruits</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000017 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000017">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000006"/>
+        <rdfs:comment xml:lang="en">These fruits give the users a power that can affect their body, manipulate the environment, or produce substances.</rdfs:comment>
+        <rdfs:label xml:lang="en">Paramecia Devil Fruits</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000018 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000018">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000006"/>
+        <rdfs:comment xml:lang="en">Powers thate deal with medical treatments.</rdfs:comment>
+        <rdfs:label xml:lang="en">Zoan Devil Fruits</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000019 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000019">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000098"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000101"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000102"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000103"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The underworld Arena of the Villans</rdfs:comment>
+        <rdfs:label xml:lang="en">Underworld</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000020 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000020">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000105"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000107"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000108"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The Grand fleet of Monkey D luffy.</rdfs:comment>
+        <rdfs:label xml:lang="en">Straw_Hat_Grand_fleet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000021 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000021">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000088"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000156"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000157"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000150"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000159"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">One of the Organisation of a Pirate clan</rdfs:comment>
+        <rdfs:label xml:lang="en">Dadan_Family</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000022 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000022">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000115"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 1999-2002</rdfs:comment>
+        <rdfs:label xml:lang="en">113 episodes, 1999-2002</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000023 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000023">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000124"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 1999-2003</rdfs:comment>
+        <rdfs:label xml:lang="en">7 episodes, 1999-2003</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000024 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000024">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:comment xml:lang="en">Episodes in 1999-2003</rdfs:comment>
+        <rdfs:label xml:lang="en">3 episodes, 1999-2003</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000025 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000025">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000127"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 1999-2003</rdfs:comment>
+        <rdfs:label xml:lang="en">14 episodes, 1999-2003</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000026 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000026">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000131"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 1999-2004</rdfs:comment>
+        <rdfs:label xml:lang="en">28 episodes, 1999-2004</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000027 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000027">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000132"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 1999-2012</rdfs:comment>
+        <rdfs:label xml:lang="en">565 episodes, 1999-2012</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000028 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000028">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000133"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 200-2003</rdfs:comment>
+        <rdfs:label xml:lang="en">7 episodes, 2000-2003</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000029 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000029">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000134"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 2001- 2003</rdfs:comment>
+        <rdfs:label xml:lang="en">43 episodes, 2001-2003</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000030 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000030">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 2001-2003</rdfs:comment>
+        <rdfs:label xml:lang="en">10 episodes, 2001-2003</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000031 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000031">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 2001-2010</rdfs:comment>
+        <rdfs:label xml:lang="en">32 episodes, 2001-2010</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000032 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000032">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000120"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 2002</rdfs:comment>
+        <rdfs:label xml:lang="en">1 episode, 2002</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000033 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000033">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000114"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 2002</rdfs:comment>
+        <rdfs:label xml:lang="en">1 episode, 2002</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000034 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000034">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 2003</rdfs:comment>
+        <rdfs:label xml:lang="en">1 episode, 2003</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000035 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000035">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000121"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 2003</rdfs:comment>
+        <rdfs:label xml:lang="en">6 episodes, 2003</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000036 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000036">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000125"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 2003</rdfs:comment>
+        <rdfs:label xml:lang="en">2 episodes, 2003</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000037 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000037">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000135"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 2003</rdfs:comment>
+        <rdfs:label xml:lang="en">2 episodes, 2003</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000038 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000038">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000122"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 2003</rdfs:comment>
+        <rdfs:label xml:lang="en">1 episode, 2003</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000039 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000039">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000128"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 2003-2004</rdfs:comment>
+        <rdfs:label xml:lang="en">15 episodes, 2003-2004</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000040 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000040">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000112"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 2004</rdfs:comment>
+        <rdfs:label xml:lang="en">1 episode, 2004</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000041 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000041">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 2005-2008</rdfs:comment>
+        <rdfs:label xml:lang="en">130 episodes, 2005-2008</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000042 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000042">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000130"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 2009-2010</rdfs:comment>
+        <rdfs:label xml:lang="en">14 episodes, 2009-2010</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000043 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000043">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000129"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 2009-2010</rdfs:comment>
+        <rdfs:label xml:lang="en">19 episodes, 2009-2010</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000044 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000044">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000126"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 2011</rdfs:comment>
+        <rdfs:label xml:lang="en">4 episodes, 2011</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000045 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000045">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 2002-2010</rdfs:comment>
+        <rdfs:label xml:lang="en">41 episodes, 2002-2010</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000046 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000046">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 2008 to 2013</rdfs:comment>
+        <rdfs:label xml:lang="en">2 episodes, 2008-2013</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000047 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000047">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000018"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The fruit used by medical purposes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Human-Human Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000048 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000048">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000018"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The fruit used to treat sick people.</rdfs:comment>
+        <rdfs:label xml:lang="en">Human-Human Fruit Daibutsu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000049 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000049">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000018"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The fruit that is created by a man.</rdfs:comment>
+        <rdfs:label xml:lang="en">Man-Made Devil Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000050 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000050">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000018"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000097"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">It possessTurtle power</rdfs:comment>
+        <rdfs:label xml:lang="en">Turtle-Turtle Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000051 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000051">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000017"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The fruit which possess Rubber power.</rdfs:comment>
+        <rdfs:label xml:lang="en">Gum-Gum Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000052 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000052">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000017"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000094"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Type of Paramecia Devil Fruit.</rdfs:comment>
+        <rdfs:label xml:lang="en">Heat-Heat Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000053 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000053">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000017"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000155"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Type of Paramecia Devil Fruit.</rdfs:comment>
+        <rdfs:label xml:lang="en">Lick-Lick Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000054 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000054">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000017"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Type of Paramecia Devil Fruit.</rdfs:comment>
+        <rdfs:label xml:lang="en">Mochi-Mochi Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000055 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000055">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000017"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Type of Paramecia Fruit.</rdfs:comment>
+        <rdfs:label xml:lang="en">Puff-Puff Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000056 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000056">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000016"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000088"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The fruit possess the fire characterstics.</rdfs:comment>
+        <rdfs:label xml:lang="en">Flame-Flame Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000057 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000057">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000016"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The fruit possess dark powers.</rdfs:comment>
+        <rdfs:label xml:lang="en">Dark-Dark Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000058 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000058">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000016"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The Fruit has fire power.</rdfs:comment>
+        <rdfs:label xml:lang="en">Flare-Flare Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000059 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000059">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000016"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000091"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The fruit possess gas powers and characterstics of gas.</rdfs:comment>
+        <rdfs:label xml:lang="en">Gas-Gas Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000060 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000060">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000016"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Type of Logia Devil Fruit</rdfs:comment>
+        <rdfs:label xml:lang="en">Glint-Glint Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000061 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000061">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000016"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Type of Logia Devil Fruit</rdfs:comment>
+        <rdfs:label xml:lang="en">Magma-Magma Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000062 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000062">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000016"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Type of Logia Fruit.</rdfs:comment>
+        <rdfs:label xml:lang="en">Tremor-Tremor Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000063 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000063">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Type of Awakened Devil Fruit</rdfs:comment>
+        <rdfs:label xml:lang="en">Gol-Gol Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000064 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000064">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Type of Awakened Devil Fruit</rdfs:comment>
+        <rdfs:label xml:lang="en">Mochi-Mochi Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000065 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000065">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000146"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000069"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The fruit that possess strings powers.</rdfs:comment>
+        <rdfs:label xml:lang="en">String-String Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000067 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000067">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000063"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Gild Tesoro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000068 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000068">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000064"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Charlotte Katakuri</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000069 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000069">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000065"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Donquixote Doflamingo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000070 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000070">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000145"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000136"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Brook</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000071 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000071">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000145"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000137"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Franky</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000072 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000072">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000145"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000138"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Monkey D Luffy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000073 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000073">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000145"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000139"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Nami</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000075 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000075">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000145"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000142"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Sanji</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000076 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000076">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000145"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000140"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Nico Robin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000077 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000077">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000145"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000141"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Roronoa Zoro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000078 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000078">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000145"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000143"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Tony Tony Chopper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000079 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000079">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000145"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000144"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Usopp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000080 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000080">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000014"/>
+        <rdfs:comment xml:lang="en">Aisa is a small Shandia girl. She wears a fur dress and cap. In the manga, her dress and cap are yellow and the in lines are white.</rdfs:comment>
+        <rdfs:label xml:lang="en">Aisa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000081 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000081">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000014"/>
+        <rdfs:comment xml:lang="en">Anana is a young girl with pink wavy hair and large red eyes. She wears a short pink dress with a white collar and frills on the bottom, as well as black leggings and yellow shoes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Anana</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000082 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000082">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000014"/>
+        <rdfs:comment xml:lang="en">Apis wears a long mustard yellow dress. The sleeves and the bottom of the dress are maroon with mustard colored circles. She has a dark maroon sash, and has the same colored undershirt.</rdfs:comment>
+        <rdfs:label xml:lang="en">Apisu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000083 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000083">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000014"/>
+        <rdfs:comment xml:lang="en">Pez is a small, chubby baby with long pink hair. Despite being a baby, he has 5 o&apos;clock stubble much like his father and has a cigar-shaped pacifier in his mouth.</rdfs:comment>
+        <rdfs:label xml:lang="en">Capone Pez</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000084 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000084">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000014"/>
+        <rdfs:comment xml:lang="en">Dolce and Dragée are young identical-looking boys who have a round body shape and wear formal pink shirts with striped pants. They are usually seen hanging on to balloons.</rdfs:comment>
+        <rdfs:label xml:lang="en">Dolce</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000085 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000085">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000014"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Kozuki Momonosuke is an inhabitant of Wano Country and the son of the late daimyo of Kuri and patriarch of the Kozuki Family, Kozuki Oden.</rdfs:comment>
+        <rdfs:label xml:lang="en">Kozuki Momonosuke</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000086 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000086">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000014"/>
+        <rdfs:comment>Kuina was the late childhood friend of Zoro. She was the daughter of Koshiro and was the reason why Zoro developed the Santoryu technique.</rdfs:comment>
+        <rdfs:label xml:lang="en">Kuina</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000087 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000087">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000014"/>
+        <rdfs:comment>Miss Goldenweek is a small child, with relatively large eyes and circles of blush on her cheeks. She is fairly short in stature and wears her dark red hair tied in braided pigtails.</rdfs:comment>
+        <rdfs:label xml:lang="en">Ms. Golden Week</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000088 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000088">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Portgas D Ace</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000089 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000089">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Marshall D. Teach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000090 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000090">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000058"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Sabo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000091 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000091">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000059"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Ceaser Clown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000092 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000092">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Borsalino</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000093 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000093">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Sakazuki</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000094 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000094">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Charlotte Oven</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000095 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000095">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000055"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Charlotte Daifuku</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000096 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000096">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000048"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Sengoku</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000097 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000097">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000050"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Pekoms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000098 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000098">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Du Fled</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000099 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000099">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Stussy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000100 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000100">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Drug Peclo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000101 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000101">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Morgans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000102 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000102">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Giberson</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000103 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000103">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Umit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000104 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000104">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Cavendish</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000105 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000105">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Bartolomeo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000106 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000106">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Sai</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000107 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000107">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Ideo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000108 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000108">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Leo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000109 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000109">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Hajrudin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000110 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000110">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:comment xml:lang="en">Supporting Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Orlumbus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000111 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000111">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000152"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Director</rdfs:comment>
+        <rdfs:label xml:lang="en">Hiroaki Miyamoto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000112 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000112">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000152"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Director</rdfs:comment>
+        <rdfs:label xml:lang="en">Junji Shimizu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000113 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000113">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000152"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Director</rdfs:comment>
+        <rdfs:label xml:lang="en">Kônosuke Uda</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000114 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000114">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000152"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Director</rdfs:comment>
+        <rdfs:label xml:lang="en">Mamoru Hosada</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000115 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000115">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000152"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Director</rdfs:comment>
+        <rdfs:label xml:lang="en">Munehisa Sakai</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000116 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000116">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">Yoshiyuki Suga</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000117 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000117">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">Suminori Takegami</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000118 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000118">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">Spencer Prokop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000119 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000119">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">Sean Whitley</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000120 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000120">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">Sean Teague</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000121 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000121">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">Ryota Yamaguchi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000122 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000122">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">Mike McFarland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000123 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000123">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">Michiru Shimada</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000124 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000124">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">Matt Chaney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000125 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000125">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">Kelli Howard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000126 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000126">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">Katelyn Barr</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000127 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000127">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">Junki Takegami</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000128 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000128">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">John Burgmeier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000129 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000129">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">Jin Tanaka</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000130 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000130">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">Hirohika Uesaka</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000131 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000131">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">Eric Vale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000132 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000132">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">Eiichiro Oda</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000133 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000133">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000028"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">Brandon Potter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000134 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000134">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000029"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">Bonny Clinkenbeard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000135 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000135">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000153"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Writer</rdfs:comment>
+        <rdfs:label xml:lang="en">Andrew Rye</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000136 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000136">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000151"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Voice Actor</rdfs:comment>
+        <rdfs:label xml:lang="en">Ian Sinclair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000137 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000137">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000151"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Voice Actor</rdfs:comment>
+        <rdfs:label xml:lang="en">Patrick Seitz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000138 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000138">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000151"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Voice Actor</rdfs:comment>
+        <rdfs:label xml:lang="en">Colleen Clinkenbeard&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000139 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000139">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000151"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000073"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Voice Actor</rdfs:comment>
+        <rdfs:label xml:lang="en">Luci Christian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000140 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000140">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000151"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Voice Actor</rdfs:comment>
+        <rdfs:label xml:lang="en">Stephanie Young</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000141 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000141">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000151"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Voice Actor</rdfs:comment>
+        <rdfs:label xml:lang="en">Christopher Sabat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000142 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000142">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000151"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000075"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Voice Actor</rdfs:comment>
+        <rdfs:label xml:lang="en">Eric Vale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000143 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000143">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000151"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Voice Actor</rdfs:comment>
+        <rdfs:label xml:lang="en">Brina PALENCIA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000144 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000144">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000151"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Voice Actor</rdfs:comment>
+        <rdfs:label xml:lang="en">Sonny Strait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000154 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000154">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000147"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Episodes in 1999-2003</rdfs:comment>
+        <rdfs:label xml:lang="en">13 episodes,1999-2003</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000155 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000155">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000160"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Charlotte Perospero</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000156 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000156">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Adult character</rdfs:comment>
+        <rdfs:label xml:lang="en">Curly Dadan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000157 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000157">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Dogra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000158 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000158">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Magra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000159 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000159">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Adult Character</rdfs:comment>
+        <rdfs:label xml:lang="en">Pochi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000002 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000002">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000161"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000161"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000161"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000161"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000161"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">TheOnePiece</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000003 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000003">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000162"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Characters that are presented in the Series.</rdfs:comment>
+        <rdfs:label xml:lang="en">Characters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000004 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000004">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000161"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000161"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000162"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The inforamtion related to the cast and crew of the series.</rdfs:comment>
+        <rdfs:label xml:lang="en">Cast_and_Crew</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000005">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000162"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A few episodes in the series.</rdfs:comment>
+        <rdfs:label xml:lang="en">Episodes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000006 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000006">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000162"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Devil Fruits are mystical fruits found throughout the world that, when consumed, provide the eater a special ability, depending on the type and variation of the Fruit itself. With only one notable exception, an individual can only acquire the powers of a single Devil Fruit.</rdfs:comment>
+        <rdfs:label xml:lang="en">Devil_Fruits</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000007 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000007">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/kiran/ontologies/TheOnePiece/TheOnePiece0000162"/>
+                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Pirate Clans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000008 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000008">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000004"/>
+        <rdfs:comment xml:lang="en">People who worked as Directors for the series.</rdfs:comment>
+        <rdfs:label xml:lang="en">Directors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000009 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000009">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000004"/>
+        <rdfs:comment xml:lang="en">The people who gave voice over to certain characters in the series.</rdfs:comment>
+        <rdfs:label xml:lang="en">Voice_Actors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000010">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/TheOnePiece/TheOnePiece0000004"/>
+        <rdfs:comment xml:lang="en">Writers are the people who wrote the specific episodes in the series manga.</rdfs:comment>
+        <rdfs:label xml:lang="en">Writers</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
